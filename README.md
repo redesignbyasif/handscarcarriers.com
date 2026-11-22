@@ -16,15 +16,17 @@ python3 -m http.server 8000
 # open http://localhost:8000/website-demo/
 ```
 
-## GitHub Pages
+## Deploy on GitHub Pages (one manual step)
 
-The site is a static build — no build step or dependencies:
+The site is a pure static build — no build step, no dependencies. Pages is **not enabled yet** on this repository; the GitHub integration used to build the site cannot change repository settings, so it has to be switched on once by hand:
 
-1. Repository **Settings → Pages**
-2. Source: **Deploy from a branch**
-3. Branch: `main`, folder: `/ (root)`
-4. Open `https://<owner>.github.io/handscarcarriers.com/` — the root `index.html` forwards to `website-demo/`
+1. Repository → **Settings → Pages**
+2. **Build and deployment → Source:** *Deploy from a branch*
+3. **Branch:** `main` · **Folder:** `/ (root)` → **Save**
+4. Wait ~1 minute for the first build, then open:
+   - `https://redesignbyasif.github.io/handscarcarriers.com/` — forwards to the homepage
+   - `https://redesignbyasif.github.io/handscarcarriers.com/website-demo/` — the homepage itself
 
-`.nojekyll` files at the repository root and inside `website-demo/` keep Jekyll from touching the asset folders.
+`.nojekyll` files at the repository root and inside `website-demo/` keep Jekyll from touching the asset folders, so the files are served exactly as committed. No custom domain or DNS change is needed.
 
 > This is a preview concept, not the live production site. The page is set to `noindex, nofollow` and is not intended to compete with <https://handscarcarriers.com> in search results.
