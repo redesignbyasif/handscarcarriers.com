@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="H and S Car Carriers">
+  <rect width="64" height="64" rx="9" fill="#0a0b0c"/>
+  <path d="M0 47h64v8H0z" fill="#ce1c22"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Archivo, 'Arial Black', Arial, sans-serif" font-size="25" font-weight="800" letter-spacing="-1" fill="#f4f1ec">H&amp;S</text>
+</svg>
