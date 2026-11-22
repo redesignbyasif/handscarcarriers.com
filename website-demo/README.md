@@ -12,8 +12,10 @@ Built as a plain static site: **HTML5 + CSS3 + vanilla JavaScript**. No framewor
 
 | Environment | URL |
 | --- | --- |
-| GitHub Pages | `https://<owner>.github.io/handscarcarriers.com/website-demo/` |
+| GitHub Pages (after enabling — see root README) | `https://redesignbyasif.github.io/handscarcarriers.com/website-demo/` |
 | Local | `python3 -m http.server 8000` → <http://localhost:8000/website-demo/> |
+
+Pages was not enabled on the repository at build time, so no public URL has been verified yet. Everything needed for it is committed.
 
 The repository root holds a tiny `index.html` that redirects to `website-demo/`, so the Pages site root also works.
 
